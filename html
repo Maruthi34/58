@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pricing Table</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .pricing-table {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .pricing-plan {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 2rem;
+            text-align: center;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+        .pricing-plan h2 {
+            margin: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .pricing-plan p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+        .pricing-plan .price {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Pricing Table</h1>
+    </header>
+    <div class="pricing-table">
+        <div class="pricing-plan">
+            <h2>Basic</h2>
+            <p class="price">$10/month</p>
+            <p>Feature 1</p>
+            <p>Feature 2</p>
+            <p>Feature 3</p>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-plan">
+            <h2>Standard</h2>
+            <p class="price">$20/month</p>
+            <p>Feature 1</p>
+            <p>Feature 2</p>
+            <p>Feature 3</p>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-plan">
+            <h2>Premium</h2>
+            <p class="price">$30/month</p>
+            <p>Feature 1</p>
+            <p>Feature 2</p>
+            <p>Feature 3</p>
+            <button>Sign Up</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Responsive Design
+    </footer>
+</body>
+</html>
